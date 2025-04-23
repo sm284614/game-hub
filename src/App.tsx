@@ -1,4 +1,6 @@
 //import { Button, ButtonGroup } from "@chakra-ui/react";
+//npm run dev
+//npm run build
 
 import { Grid, GridItem } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
