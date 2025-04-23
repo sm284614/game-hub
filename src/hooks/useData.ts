@@ -18,6 +18,7 @@ const useData = <T>(
 
   useEffect(
     () => {
+      console.log("fetching", endPoint, requestConfig);
       const controller = new AbortController();
       setLoading(true);
       apiClients
